@@ -7,19 +7,17 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Anonymous Pro', monospace;
-  }
-
-  .color-text {
-    
+    font-family: 'roboto', sans-serif;
   }
 
   .p-34 {
     padding: 4rem 8.5rem 4rem 8.5rem;
   }
 
-  .gap-2 {
-    gap: 2rem;
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.37rem;
   }
 
 }
