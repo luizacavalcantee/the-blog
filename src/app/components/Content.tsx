@@ -6,25 +6,23 @@ import fourthPost from '../../assets/post-4.png';
 
 export default function Content() {
   return (
-    <div className="bg-white py-16">
-      <div className="container mx-auto px-20">
-        <div className="flex gap-20">
-            <div className="post w-[569px]">
-            <div>
-                <Image
-                src={firstPost} 
-                alt="Post" 
-                width={560}
-                height={400}
-                className='rounded-2xl'
-                />
-            
-            <p className='my-1'>Janeiro 04, 2022</p>
-            <h2 className='text-darkPurple mb-2'>Começando no ReactJS em 2022</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse nam fugiat illo at quasi maiores odio rem natus? Asperiores nulla molestiae commodi corporis? Totam, exercitationem vel! Harum, deleniti voluptatum.</p>
+    <div className="bg-white py-16 w-full">
+      <div className="container mx-auto px-10 lg:container mx-auto px-20">
+        <div className="lg:flex gap-20">
+            <div className="post">
+                <div>
+                    <Image
+                    src={firstPost} 
+                    alt="Post" 
+                    className='rounded-2xl w-auto'
+                    />
+                
+                <p className='my-1'>Janeiro 04, 2022</p>
+                <h2 className='text-darkPurple mb-2'>Começando no ReactJS em 2022</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse nam fugiat illo at quasi maiores odio rem natus? Asperiores nulla molestiae commodi corporis? Totam, exercitationem vel! Harum, deleniti voluptatum.</p>
             </div>
             </div>
-            <div className='w-[472px]'>
+            <div className=''>
             <div>
                 <p className='data'>Janeiro 04, 2022</p>
                 <h2 className='text-darkPurple mb-2'>Conheça as principais técnicas para conseguir uma vaga internacional em programação</h2>
@@ -41,13 +39,13 @@ export default function Content() {
             </div> 
         </div>
 
-        <div className='flex mt-16 gap-8'>
+        <div className='border-t border-[#F2E7FA] my-6 lg:hidden'></div>
+
+        <div className='lg:flex mt-16 gap-8'>
           <div>
             <Image
               src={secondPost} 
               alt="Post 1" 
-              width={370}
-              height={400}
             />
             <p className='mt-2'>Janeiro 04, 2022</p>
             <h2 className='text-darkPurple my-1'>10 dicas para conseguir a vaga desejada</h2>
@@ -57,8 +55,6 @@ export default function Content() {
             <Image
               src={thirdPost} 
               alt="Post 1" 
-              width={370}
-              height={400}
             />
             <p className='mt-2'>Janeiro 04, 2022</p>
             <h2 className='text-darkPurple my-1'>Deixe seu código mais semântico com essas dicas</h2>
@@ -68,8 +64,6 @@ export default function Content() {
             <Image
               src={fourthPost} 
               alt="Post 1" 
-              width={370}
-              height={400}
             />
             <p className='mt-2'>Janeiro 04, 2022</p>
             <h2 className='text-darkPurple my-1'>Use essas dicas nas suas aplicações mobile</h2>
@@ -77,8 +71,6 @@ export default function Content() {
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
