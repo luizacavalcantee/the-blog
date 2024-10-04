@@ -1,6 +1,6 @@
-import Home from './components/Home';
-import Divisor from './components/Divisor';
-import Content from './components/Content';
+import Home from './pages/Home';
+import Divisor from './pages/Divisor';
+import Content from './pages/Content';
 
 export default function App() {
   return (
