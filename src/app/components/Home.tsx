@@ -7,7 +7,7 @@ import Foto from '../../assets/featured-image.png';
 export default function Home() {
   return (
     <div className="bg-darkPurple py-8">
-      <div className="container mx-auto px-10">
+      <div className="container mx-auto px-20">
         <header className="flex items-center justify-between">
           <Image
             src={Logo}
@@ -36,17 +36,16 @@ export default function Home() {
           
         </header>
         <div className='flex my-12 gap-6'>          
-          <div className='flex-col items-center border'>
-            <h1 className='text-lightPurple border'>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
-            <p className='text-light mt-4 mb-6 border'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos animi soluta reiciendis aspernatur tempore, ex quam! Adipisci delectus quasi aperiam nisi repudiandae natus, porro, esse tempora recusandae, autem voluptatem distinctio.</p>
-            <div className='flex gap-2 border'>
-              <span className='text-lightPurple border'>Veja mais</span>
+          <div className='flex-col items-center'>
+            <h1 className='text-lightPurple'>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
+            <p className='text-light mt-4 mb-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos animi soluta reiciendis aspernatur tempore, ex quam! Adipisci delectus quasi aperiam nisi repudiandae natus, porro, esse tempora recusandae, autem voluptatem distinctio.</p>
+            <div className='flex gap-2'>
+              <span className='text-lightPurple'>Veja mais</span>
               <Image
                 src={Arrow}
                 alt="Logo"
                 width={24}
                 height={24}
-                className='border'
               />
             </div>
           </div>
