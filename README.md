@@ -30,9 +30,10 @@ Blog feito em 48 horas (02/09-04/10).
 ## Principais aprendizados
 * Configurar e iniciar um projeto Next.JS
 * Usar Tailwind para estilização
+* Fazer responsividade em Tailwind
 
 
 ## Próximos passos
-* Terminar a responsividade
-* Adicionar interatividade ao site
+* Adicionar animações no site
 * Fazer a lógica de pesquisar texto
+* Adicionar uma página para envio de mensagem
