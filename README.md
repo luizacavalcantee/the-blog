@@ -5,7 +5,8 @@ Você pode clonar esse repositório e rodar:
     ```
     npm install
     ```
-. E depois: 
+<br>
+E depois: 
     ```
         npm run dev
     ```
