@@ -6,7 +6,7 @@ import Search from '../../assets/search.svg';
 
 export default function Home() {
   return (
-    <div className="bg-darkPurple py-12">
+    <div className="bg-darkPurple py-12 w-full">
       <div className="container mx-auto px-20">
         <header className="flex items-center justify-between">
           <Image
@@ -16,7 +16,7 @@ export default function Home() {
             height={100} 
             className='mr-28'
           />
-          <div className="flex ml-auto gap-4 text-white mx-auto">
+          <div className="hidden lg:flex ml-auto gap-4 text-white mx-auto">
             <div className="mx-auto flex items-center justify-center"> 
               <span className="border-l-2 border-green h-6 mx-[3px]"/>
               <h3>Home</h3>
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='flex'>
+          <div className='hidden lg:flex'>
             <input type="text" placeholder='Buscar' className='bg-[#170027] text-white border-none outline-none ring-0 p-2 rounded-l-[5px] h-11' required />
             <button className='bg-lightPurple h-[44] w-[60px] flex justify-center items-center rounded-r-[5px]'>
               <Image
@@ -60,13 +60,13 @@ export default function Home() {
             </div>
           </div>
           
-          <Image
-            src={Foto}
-            alt="Logo"
-            width={456}
-            height={400}
-            className='rounded-2xl'
-          />
+            <Image
+              src={Foto}
+              alt="Logo"
+              width={456}
+              height={400}
+              className=' hidden lg:block rounded-2xl'
+            />
         </div>
       </div>
     </div>

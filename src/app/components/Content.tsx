@@ -19,8 +19,8 @@ export default function Content() {
                 className='rounded-2xl'
                 />
             
-            <p className='mt-1'>Janeiro 04, 2022</p>
-            <h2 className='text-darkPurple my-2'>Começando no ReactJS em 2022</h2>
+            <p className='my-1'>Janeiro 04, 2022</p>
+            <h2 className='text-darkPurple mb-2'>Começando no ReactJS em 2022</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis esse nam fugiat illo at quasi maiores odio rem natus? Asperiores nulla molestiae commodi corporis? Totam, exercitationem vel! Harum, deleniti voluptatum.</p>
             </div>
             </div>
