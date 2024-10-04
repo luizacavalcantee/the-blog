@@ -6,11 +6,12 @@ Você pode clonar esse repositório e rodar:
     npm install
     ```
 <br>
+<br>
 E depois: 
     ```
         npm run dev
     ```
-.
+<br>
 <br>
 Ou você pode ver a implantação do projeto agora mesmo: [https://the-blog-dev.vercel.app/]
 
