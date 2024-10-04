@@ -6,8 +6,8 @@ import Foto from '../../assets/featured-image.png';
 
 export default function Home() {
   return (
-    <div className="bg-darkPurple py-8">
-      <div className="container mx-auto px-20">
+    <div className="bg-darkPurple py-12">
+      <div className="container mx-auto px-20 border border-red-700">
         <header className="flex items-center justify-between">
           <Image
             src={Logo}

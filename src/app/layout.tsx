@@ -16,7 +16,7 @@ import { Roboto, Poppins } from "next/font/google";
   });
   
   export const metadata: Metadata = {
-    title: "The blog",
+    title: "The blog.",
     description: "Blog de atualizações dev",
   };
   
