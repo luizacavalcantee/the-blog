@@ -1,13 +1,13 @@
 import Home from './pages/Home';
-import Divisor from './pages/Divisor';
 import Content from './pages/Content';
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
     <div>
       <Home />
-      <Divisor />
       <Content />
+      <Contact />
     </div>
   );
 }
