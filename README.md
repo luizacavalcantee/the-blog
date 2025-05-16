@@ -1,10 +1,6 @@
 <h1>✨ THE BLOG.</h1>
 <p>Blog pessoal desenvolvido com Next.js e TailwindCSS</p>
 
-<div align="center">
-  <img src="./public/screenshot.png" alt="Blog Preview" width="80%">
-</div>
-
 ## 🚀 Sobre o Projeto
 Blog técnico desenvolvido em **48 horas** (02/09 a 04/10) como projeto de aprendizado.  
 Focado em compartilhar conhecimentos sobre desenvolvimento web com artigos práticos e dicas.
@@ -42,6 +38,17 @@ npm run dev
 ## 📸 Preview
 
 <div align="center">
-  <img src="./public/screenshot-home.png" alt="Homepage" width="45%">
-  <img src="./public/screenshot-article.png" alt="Artigo" width="45%">
+  <img src="./src/assets/theblog1.png" alt="Blog Preview" width="45%">
+  <img src="./src/assets/theblog2.png" alt="Blog Preview" width="45%">
+</div>
+
+## 📞 Contato
+
+<div>
+  <a href="mailto:cavalcanteluiza13@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-d9415d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/luizacavalcanteee/">
+    <img src="https://img.shields.io/badge/-LinkedIn-d9415d?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
 </div>
